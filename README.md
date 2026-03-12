@@ -22,16 +22,16 @@ Use Adaptive thresholding to segment the image.
 ### Step5:
 Use Otsu's method to segment the image and display the results.
 ## Program
-NAME : YOKESH I
+## NAME : YOKESH I
 
-REG NO :212224230313
+## REG NO :212224230313
 ```
 import cv2
 import matplotlib.pyplot as plt
 
 # Read the Image and convert to grayscale
 
-image=cv2.imread('/content/thala.png')
+image=cv2.imread('1000077167.jpg')
 gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
 # Original image
@@ -77,7 +77,7 @@ plt.show()
 ```
 ## Output
 
-![image](https://github.com/user-attachments/assets/9c716c04-3c6e-4bfc-9055-a6eb5ce899ce)
+<img width="657" height="610" alt="image" src="https://github.com/user-attachments/assets/d1733edf-99bd-441f-9541-fc419681b86e" />
 
 
 ## Result
